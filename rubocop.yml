@@ -11,7 +11,7 @@ Metrics/LineLength:
   Max: 120
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
-  Max: 20
+  Max: 100
 Metrics/AbcSize:
   Include: ["app/controllers/*"]
   Max: 30
@@ -24,6 +24,8 @@ Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
 
 Layout/AlignHash:
   EnforcedColonStyle: key
@@ -32,3 +34,4 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
+
