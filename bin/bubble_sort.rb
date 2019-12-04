@@ -41,20 +41,22 @@ def bubble_sort_by(array)
 
   switchIt = false
 		while i < go
-      if yield() > 0
+      if yield(array[i], array [i+1]) > 0
           array[i], array[i+1] = array[i+1], array[i]
           switchIt = true
       end
 
-      i += 1 #this is where we iterate & g2 next index
+      i += 1
+      
     end
 
   end
 
-  return array
+  array
+  
 end
 
-puts bubble_sort_by(["hi","hello","hey"]) { |left, right| return left.length - right.length }
+puts bubble_sort_by(["This is a big one","hi","hello","hey","hi there", "I'm", "Your friend"]) { |left, right| left.length - right.length }
 
 
 
