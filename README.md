@@ -12,7 +12,7 @@ This is a first commit to the feature Branch!
 
 ## About
 
-![screenshot image](./images/screenshot.PNG)
+![screenshot image]()
 
 
 ## How It Works
