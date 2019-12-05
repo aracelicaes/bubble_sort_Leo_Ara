@@ -1,9 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-array = [4, 3, 78, 2, 0, 2]
-arraytwo = [4, 3, 78, 2, 0, 2, 2, 5, 7852, 54, 8]
-
 def bubble_sort(array)
   go = array.length - 1
   switch_It = true
@@ -37,5 +34,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-puts bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
