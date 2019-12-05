@@ -11,7 +11,7 @@ This project consists of building two bubble sort methods as required at Odin Pr
 
 The first method organizes a given array from the smallest element to the largest one comparing every element with it's next neighbour and swapping it if necessary.
 
-[screenshot image](http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+[screenshot image](.images/example)
 
 The second method also organizes the array but according to the instructions given to the method in the method's block, in this case the array is going to be organized depending in the length of the element.
 
