@@ -11,7 +11,12 @@ This project consists of building two bubble sort methods as required at Odin Pr
 
 The first method organizes a given array from the smallest element to the largest one comparing every element with it's next neighbour and swapping it if necessary.
 
-[screenshot image](.images/example.gif)
+<br />
+<p align="center">
+  <img src=".images/example.gif" alt="example.gif">
+  <h3 align="center">Bubble sort</h3>
+</p>
+
 
 The second method also organizes the array but according to the instructions given to the method in the method's block, in this case the array is going to be organized depending in the length of the element.
 
